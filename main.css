@@ -1,0 +1,204 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ------------------------------------- */
+
+/* Body */
+body {
+    background-color: #eceef1;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    color: #4C4C4C;
+}
+
+/* Header*/
+
+#intuit {
+    text-align: center;
+    font-size: 35px;
+    color: #8d9096;
+    padding: 10px 0;
+    font-weight: bolder;
+}
+
+/* Main Container*/
+
+section {
+    background-color: white;
+    margin: 0 auto;
+    padding: 30px;
+    width: 320px;
+    border: 1px solid #c7c7c7;
+    margin-bottom: 40px;
+}
+
+.brands {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e2e1e1;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #6c6d73;
+    letter-spacing: 1px;
+}
+
+.fa-envira {
+    color: #00a6a4;
+}
+
+.fa-check-circle {
+	color: #d52b1e;
+}
+
+.fa-adn {
+	color: #2c9f1c;
+}
+
+.brands span {
+    cursor: pointer;
+}
+
+section header {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+section header p:last-child {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+section header h3 {
+	font-size: 24px;
+    line-height: 1.2;
+    padding-bottom: 20px;
+}
+
+form {
+    color: #404040;
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 300;
+    padding-bottom: 30px;
+}
+
+label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+}
+
+.account-info input{
+	display: block;
+    height: 34px;
+    border: 1px solid #C1C5C8;
+    border-radius: 3px;
+    line-height: 1.3em;
+    font-size: 1.2em;
+    padding-left: 8px;
+}
+
+.account-info input:focus {
+    border: 1px solid #52a8ec;
+    outline: 0;
+    border-color: rgba(82, 168, 236, 0.8);
+    box-shadow: 0 1px 1px rgba( 0, 0 ,0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.8);
+}
+
+.tel-rates {
+    font-size: 10px;
+    color: #444;
+    padding: 5px 0;
+}
+
+#create-account {
+    width: 100%;
+    background: #0077C5;
+    border: #0077C5;
+    border-radius: 4px;
+    height: 44px;
+    color: #fff;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.75);
+    margin: 6px 0;
+    font-size: 15px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+section footer {
+    text-align: center;
+    color: #bbb;
+    font-style: italic;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+a {
+    color: #0077C5;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#main-footer {
+    text-align: center;
+    font-size: 10px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+#main-footer h4 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
